@@ -8,10 +8,10 @@ export default function Pricing() {
                 <p className='text-button capitalize  text-[16px] text-center font-medium'>Pricing Plan</p>
                 <p className='text-primary text-center md:text-4xl text-2xl font-semibold'>Choose your pricing policy</p>
             </div>
-            <div className='md:mt-9 mt-4  w-1/2 mx-auto'>
+            <div className='md:mt-9 mt-4  md:w-1/2 w-full mx-auto'>
                 <div className='flex justify-center items-center bg-[#F7F8FB] p-6 rounded-md '>
-                    <button className='outline-none border-none bg-white shadow-md py-5 px-9 rounded-md text-[16px] font-medium text-secondary'>Monthly Plan</button>
-                    <button className='outline-none border-none  py-5 px-9 rounded-md text-[16px] font-medium text-secondary'>Annual Plan</button>
+                    <button className='outline-none border-none bg-white shadow-md md:py-5 py-3 md:px-9 px-2 rounded-md text-[16px]  font-medium text-secondary'>Monthly Plan</button>
+                    <button className='outline-none border-none  md:py-5 py-3 md:px-9 px-2 rounded-md text-[16px] font-medium text-secondary'>Annual Plan</button>
                 </div>
             </div>
             <div className='mt-9 flex justify-end items-end'>

@@ -17,3 +17,10 @@
     color: #ea3a60;
   }
 }
+
+.swiper-button-prev {
+  color: #ea3a60 !important;
+}
+.swiper-button-next {
+  color: #ea3a60 !important;
+}

@@ -23,7 +23,7 @@ export default function Testomonial() {
                 <p className='text-button capitalize  text-[16px] text-center font-medium'>TESTIMONIAL</p>
                 <p className='text-primary text-center md:text-4xl text-2xl font-semibold'>Meet Client Satisfaction</p>
             </div>
-            <div className='md:mt-[60px] mt-[30px]   items-start justify-start px-8 md:px-0'>
+            <div className='md:mt-[60px] mt-[30px]   items-start justify-start  md:px-0'>
                 <Swiper
                     slidesPerView={3}
                     spaceBetween={30}
@@ -31,11 +31,8 @@ export default function Testomonial() {
                     pagination={{
                         clickable: true,
                     }}
-                    navigation={{
-                        nextEl: '.swiper-button-next',
-                        prevEl: '.swiper-button-prev',
-                    }}
-                    modules={[FreeMode, Pagination]}
+                    navigation={true}
+                    modules={[FreeMode, Pagination, Navigation]}
                     className="mySwiper"
                     breakpoints={{
                         300: {

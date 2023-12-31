@@ -13,7 +13,7 @@ export default function Works() {
                 <div className='mt-[40px] grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-x-20'>
                     <div className='flex flex-col items-start'>
                         <div className='flex justify-between items-center'>
-                            <div className='mr-3 relative'>
+                            <div className=' relative'>
                                 <div className='bg-white   rounded-3xl px-7 py-7 '></div>
                                 <p className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-button text-3xl font-medium'>01</p>
                             </div>
@@ -27,7 +27,7 @@ export default function Works() {
                     </div>
                     <div className='flex flex-col items-start'>
                         <div className='flex justify-between items-center'>
-                            <div className='mr-3 relative'>
+                            <div className=' relative'>
                                 <div className='bg-white   rounded-3xl px-7 py-7 '></div>
                                 <p className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-button text-3xl font-medium'>02</p>
                             </div>
@@ -40,7 +40,7 @@ export default function Works() {
                     </div>
                     <div className='flex flex-col items-start'>
                         <div className='flex justify-between items-center '>
-                            <div className='mr-3 relative'>
+                            <div className=' relative'>
                                 <div className='bg-white   rounded-3xl px-7 py-7 '></div>
                                 <p className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-button text-3xl font-medium'>03</p>
                             </div>
@@ -53,7 +53,7 @@ export default function Works() {
                     </div>
                     <div className='flex flex-col items-start'>
                         <div className='flex justify-between items-center'>
-                            <div className='mr-3 relative'>
+                            <div className=' relative'>
                                 <div className='bg-white   rounded-3xl px-7 py-7 '></div>
                                 <p className='absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] text-button text-3xl font-medium'>04</p>
                             </div>
