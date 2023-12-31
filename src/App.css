@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.serviceBG {
+  background: url("/service.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.teamMember:hover {
+  p {
+    color: #ea3a60;
+  }
+}
